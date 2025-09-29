@@ -1,0 +1,52 @@
+.about {
+    z-index: 2;
+    font-family: "helvetica-neue", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: fit-content;
+}
+
+.about-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+    width: 30%;
+    /* border: 1px solid white; */
+
+    margin-top: 256px;
+}
+
+.header {
+    font-family: "helvetica-neue-lt-pro-cond", sans-serif;
+    margin: 5px;
+    font-weight: medium;
+    font-style: normal;
+    font-size: 1.75rem;
+    z-index: 2;
+    text-align: center;
+    /* border: 1px solid white; */
+    width: 100%;
+    background-color: white;
+    color: white;
+}
+
+.text {
+    font-family: helvetica-neue-lt-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    z-index: 2;
+    color: white;
+    text-align: left;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
